@@ -9,8 +9,8 @@ function setup() {
   thickness = random(22,83);
   weight = random(30,52)
 
-  background(255,255,255); 
-  bullet = createSprite(50,200,50,50)
+  //background(255,255,255); 
+  bullet = createSprite(50,200,50,5)
   bullet.shapeColor = "white"
   wall = createSprite(1200,200, thickness, height/2)
   wall.shapeColor = color(80,80,80)
